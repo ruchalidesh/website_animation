@@ -1,0 +1,190 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header
+{
+	width:100%;
+	height:100vh;
+	background-image: url('hh3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+nav
+{
+	width: 100%;
+	height:15vh;
+    background:black;
+    color: white;
+     display: flex;
+     justify-content: space-between;
+    align-content: center;
+    text-transform: uppercase;
+}
+nav .logo{
+	width: 25%;
+	padding-top: 20px;
+	text-align:center;
+	 align-content: center;
+	}
+h1
+	 {
+
+	 	animation-iteration-count: infinite;
+	 	animation-delay: 1s;
+	 }
+
+
+
+nav .menu
+{
+	width: 40%;
+	padding-top: 20px;
+	display: flex;
+	float: right;
+	justify-content: space-around;
+	text-align:center;
+	align-content: center;
+  
+	text-decoration: none;
+
+}
+nav .menu a
+{
+	width: 25%;
+	text-decoration: none;
+	font-weight: bold;
+	  color: white;
+
+}
+main{
+	width: 100%;
+	height: 85vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: white;
+}
+section{
+
+}
+
+/*section h3{
+	font-size: 35px;
+	font-weight: 200px;
+	letter-spacing: 3px;
+	text-shadow:1px 1px 2px black; 
+
+}*/
+.slider_wrapper{
+	font-size: 40px;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.slider{
+	height: 50px;
+	padding-left: 15px;
+	overflow: hidden;
+
+}
+.slider div{
+	color: black;
+	height: 50px;
+	margin-bottom: 50px;
+	padding: 2px 15px;
+	text-align: center;
+}
+.slider-text1{
+	background:green;
+	animation: slide 5s linear infinite;
+}
+.slider-text2{
+	background:green;
+	animation: slide 5s linear infinite;
+}
+@keyframes slide{
+	0%{margin-top: 300px;}
+	5%{margin-top: 200px;}
+	33%{margin-top: 200px;}
+	38%{margin-top: 100px;}
+	66%{margin-top: 100px;}
+	71%{margin-top: 0px;}
+	100%{margin-top: 0px;}
+}
+section h1{
+	margin: 30px 0px 20px 0;
+	font-size: 55px;
+	font-weight: 700px;
+	text-shadow: 2px 1px 5px black;
+	text-transform: uppercase;
+}
+
+section p{
+	font-size: 25px;
+	color: #eee;
+	word-spacing: 2px;
+	margin-bottom: 25px;
+	text-shadow: 1px 1px 1px black;
+
+}
+section a{
+	padding: 17px;30px;
+	border-radius: 4px;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 1px;
+	transition: all .5s ease;
+}
+section .btn1
+{
+	background: #fff;
+	color:#000;
+	
+}
+.btn1:hover{
+	background: #00b894;
+	color: white;
+
+}
+section .btn2
+{
+	background: #00b894;
+	color: white;
+
+}
+.btn2:hover{
+	background: #fff;
+	color:#000;
+}
+
+
+
+/*.change_content: after{
+	content:'';
+
+	animation: 10s change infinite;
+	color:black;
+
+	overflow: hidden;
+
+		
+}
+@keyframes change{
+	0%{content: "Jaipur";}
+	20%{content: "Kerela";}
+	35%{content: "Mumbai";}
+	60%{content: "Delhi";}
+    80%{content: "Jammu and kashmir";}
+    100%{content: "Darjeeling";}
+
+
+}*/
